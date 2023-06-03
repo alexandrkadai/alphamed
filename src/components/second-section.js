@@ -1,39 +1,39 @@
 import { Fragment } from 'react';
-import 'second-section.module.css';
+import './second-section.module.css';
 
 const SecondSection = () => {
-    return(
-        <Fragment>
-        <h2>Our Services</h2>
+  return (
+    <Fragment>
+      <h2>Our Services</h2>
 
-        <div>
+      <div>
         <p>Karies</p>
         <img alt="Karies" src="Somesrc.jpeg" />
-        </div>
+      </div>
 
-        <div>
+      <div>
         <p>Implant</p>
         <img alt="Karies" src="Somesrc.jpeg" />
-        </div>
+      </div>
 
-        <div>
+      <div>
         <p>Restavracija</p>
         <img alt="Karies" src="Somesrc.jpeg" />
-        </div>
+      </div>
 
-        <div>
+      <div>
         <p>Kornevuh Kanaliv</p>
         <img alt="Karies" src="Somesrc.jpeg" />
-        </div>
+      </div>
 
-        <div>
+      <div>
         <p>Protezuvannja</p>
         <img alt="Karies" src="Somesrc.jpeg" />
-        </div>
+      </div>
 
-        <p>Diznatusja Bilshe</p>
-        </Fragment>
-    );
-}
+      <p>Diznatusja Bilshe</p>
+    </Fragment>
+  );
+};
 
 export default SecondSection;

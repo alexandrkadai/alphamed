@@ -6,7 +6,6 @@ const ThirdSection = () => {
       <h2>About Clinic</h2>
 
       <img src="somesrc.jpeg" alt="Clinic Photo" />
-      
     </div>
   );
 };
