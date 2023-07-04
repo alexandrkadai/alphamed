@@ -1,12 +1,18 @@
-import 'header.module.css';
+import classes from './header.module.css';
 
 const Header = () => {
   return (
-    <div>
-      <div className="logo">
-        <img src="some.jpeg" alt="logo" />
+    <header>
+    <div className={classes.upperbar}>
+      <div className={classes.logo}>
+        <img src="../../public/logo192.png" alt="logo" />
       </div>
-      <div className="navBar">
+      <div><span>044 432 32 11</span></div>
+      <div><span>Адресс Бульвар Кольцова 14Л</span></div>
+      <div><span>Записаться На прийом</span></div>
+      </div>
+
+      <nav className={classes.navBar}>
         <ul>
           <li>про нас</li>
           <li>контакти</li>
@@ -14,8 +20,9 @@ const Header = () => {
           <li>нашi роботи</li>
           <li>цiни</li>
         </ul>
-      </div>
-    </div>
+      </nav>
+
+    </header>
   );
 };
 

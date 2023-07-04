@@ -4,7 +4,7 @@ import './second-section.module.css';
 const SecondSection = () => {
   return (
     <Fragment>
-      <h2>Our Services</h2>
+      <h2>Наші Послуги</h2>
 
       <div>
         <p>Karies</p>

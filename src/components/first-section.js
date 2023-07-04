@@ -1,8 +1,10 @@
+import classes from './first-section.module.css';
+
 const FirstSection = () => {
   return (
-    <div>
-      <p>Daruemo POsmishku vsim hto Topching</p>
-    </div>
+    <section className={classes.firstsection}>
+      <p>Даруємо неповторимі <br/> посмішки</p>
+    </section>
   );
 };
 
