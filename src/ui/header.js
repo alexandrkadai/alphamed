@@ -14,7 +14,7 @@ const Header = () => {
 
       <nav className={classes.navBar}>
         <ul>
-          <li>про нас</li>
+          <li>про клініку</li>
           <li>контакти</li>
           <li>послуги</li>
           <li>нашi роботи</li>
