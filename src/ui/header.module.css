@@ -1,28 +1,31 @@
-.upperbar{
-    display: flex;
-    justify-content: space-around;
-    padding: 15px;
-    height: 50px;
-    background-color: lightblue;
+.upperbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  height: 50px;
+  background-color: lightblue;
 }
-.logo{ 
-    background-color: aqua;
-    width: 25px;
-    height: 25px;
-
+.logo {
+  background-color: aqua;
 }
-.navBar{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
+.logoImg {
+    margin-top: -10px;
+    border-radius: 50px;
+  width: 75px;
+  height: 75px;
 }
-.navBar ul{
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto 0 auto;
+.navBar {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.navBar ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto 0 auto;
 }
 .navBar ul li {
-   margin-left: 10px;
-    list-style-type: none;
+  margin-left: 10px;
+  list-style-type: none;
 }
