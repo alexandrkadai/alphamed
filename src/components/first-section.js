@@ -1,5 +1,7 @@
 import { Fragment } from 'react';
-import about from '../img/aboutClinique.png'
+import Button from '../ui/button';
+
+import about from '../img/aboutClinique.jpeg'
 import classes from './first-section.module.css';
 
 const FirstSection = () => {
@@ -10,6 +12,7 @@ const FirstSection = () => {
           <h2 className={classes.mainText}>
             Даруємо неповторні <br /> посмішки
           </h2>
+      <Button text={'Записатися на прийом'}/>
         </div>
 
         <div className={classes.clinique}>

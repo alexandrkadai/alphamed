@@ -3,6 +3,7 @@ import { Fragment } from 'react';
 import Header from '../ui/header';
 import FirstSection from '../components/first-section';
 import SecondSection from '../components/second-section';
+import ThirdSection from '../components/third-section';
 
 
 const MainPage = () => {
@@ -11,6 +12,7 @@ const MainPage = () => {
         <Header />
         <FirstSection />
         <SecondSection/>
+        <ThirdSection/>
         </Fragment>
     )
 };
