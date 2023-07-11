@@ -39,7 +39,10 @@
   border: 2px solid var(--main-color);
   border-radius: 25px;
   margin-left: 20px;
-  width: 350px;
+  width: 450px;
   height: 300px;
   font-size: 20px;
+}
+.clinique h3{
+  margin-top: 0px;
 }

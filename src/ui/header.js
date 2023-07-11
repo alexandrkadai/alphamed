@@ -3,34 +3,36 @@ import classes from './header.module.css';
 
 const Header = () => {
   return (
-    <header>
+    <header> 
+
       <div className={classes.upperbar}>
-        <div>
+
+        <div className={classes.logoText}>
           <img className={classes.logoImg} src={logo} alt="logo" />
+ 
+        </div>
+   
+        <div>
           
-        </div>
-        <div>
-          <span>044 432 32 11</span>
-          <br />
+          
           <span>096 822 31 41</span>
-        </div>
-        <div>
+      <br/>
           <span>Бульвар Кольцова 14Л</span>
         </div>
-        <div>
-          <span>Записатися На прийом</span>
-        </div>
-      </div>
 
+       
+      </div>
       <nav className={classes.navBar}>
-        <ul>
-          <li>про клініку</li>
-          <li>контакти</li>
-          <li>послуги</li>
-          <li>нашi роботи</li>
-          <li>цiни</li>
-        </ul>
-      </nav>
+    <ul>
+      <li>про клініку</li>
+      <li>контакти</li>
+      <li>послуги</li>
+      <li>нашi роботи</li>
+      <li>цiни</li>
+    </ul>
+  </nav>
+    
+     
     </header>
   );
 };
