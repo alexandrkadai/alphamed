@@ -2,6 +2,7 @@
     padding: 0 20px;
     text-align: center;
     margin-bottom: 30px;
+    height: 80vh;
    
 }
 .secondSection button{
@@ -11,13 +12,14 @@
     display: flex;
     flex-direction: row;    
     justify-content: space-around;
+    flex-wrap: wrap;
     margin-bottom: 20px
 }
 .serviceCard{
     position: relative;
     padding: 5px;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border: 1px solid lightblue ;
     border-radius: 25px;
     color:black;

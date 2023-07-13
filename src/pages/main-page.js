@@ -10,7 +10,7 @@ const MainPage = () => {
     return (
         <Fragment>
         <Header />
-      
+        <FirstSection/>
         <SecondSection/>
         <ThirdSection/>
         </Fragment>

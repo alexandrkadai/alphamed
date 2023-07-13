@@ -1,27 +1,17 @@
+.firstsection{
+  height: 70vh;
+  text-align: left;
+  background-color: lightblue;
+}
 .mainText {
   font-size: 60px;
   color: var(--main-color);
   text-shadow: 2px 2px 2px black;
   margin: 0;
 }
-
-.greeting {
-  height: 50vh;
-  text-align: center;
-  background-image: url('../img/background.jpeg');
-  background-position: top;
-  background-size: cover;
-}
-.greeting button{
-  margin-top: 150px;
-  background-color: var(--main-color);
-  color: black;
-}
-
 .clinique {
   padding: 0 50px 0 50px;
   height: 50vh;
-  background-color: lightblue;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -36,12 +26,9 @@
 
 .clinique p {
   padding: 5px;
-  border: 2px solid var(--main-color);
-  border-radius: 25px;
   margin-left: 20px;
-  width: 450px;
-  height: 300px;
-  font-size: 20px;
+  width: auto;
+  font-size: 35px;
 }
 .clinique h3{
   margin-top: 0px;

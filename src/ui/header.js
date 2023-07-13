@@ -3,34 +3,25 @@ import classes from './header.module.css';
 
 const Header = () => {
   return (
-    <header> 
+    <header className={classes.mainHeader}> 
 
       <div className={classes.upperbar}>
 
         <div className={classes.logoText}>
-          <img className={classes.logoImg} src={logo} alt="logo" />
- 
+          <span className={classes.centName}>alphamed</span>
+          <br/>
+          <span className={classes.centAbout}>сучасна стоматолонічна клініка</span>
         </div>
    
-        <div>
+        <div className={classes.contacsQuick}>
+          <span>096 822 31 41 ::</span>
           
-          
-          <span>096 822 31 41</span>
-      <br/>
-          <span>Бульвар Кольцова 14Л</span>
+          <span> Кольцова 14Л</span>
         </div>
 
        
       </div>
-      <nav className={classes.navBar}>
-    <ul>
-      <li>про клініку</li>
-      <li>контакти</li>
-      <li>послуги</li>
-      <li>нашi роботи</li>
-      <li>цiни</li>
-    </ul>
-  </nav>
+    
     
      
     </header>
