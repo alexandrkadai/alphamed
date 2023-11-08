@@ -1,9 +1,10 @@
 .standart{
     border: 1px solid var(--main-color);
     background-color: var(--main-color);
-    border-radius: 25px;
+    padding: 5px;
     font-size: 25px;
     cursor: pointer;
     text-transform: uppercase;
     font-weight: bold;
+    width: auto;
 }
