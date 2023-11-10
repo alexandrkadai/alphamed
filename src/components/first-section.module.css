@@ -1,7 +1,12 @@
 .firstsection{
-  height: 70vh;
+  height: 100vh;
   text-align: left;
-  background-color: lightblue;
+  
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px;
 }
 .mainText {
   font-size: 60px;
@@ -10,7 +15,8 @@
   margin: 0;
 }
 .clinique {
-  padding: 0 50px 0 50px;
+  padding: 20px 50px 0px 0px;
+  width: auto;
   height: 50vh;
   display: flex;
   justify-content: space-around;
@@ -25,11 +31,41 @@
 }
 
 .clinique p {
-  padding: 5px;
-  margin-left: 20px;
+  padding: 5px 0px;
+  margin-left: 0px;
   width: auto;
-  font-size: 35px;
+  font-size: 25px;
 }
 .clinique h3{
   margin-top: 0px;
+}
+
+.hours{
+  position: relative;
+  width: 100%;
+  
+}
+.imgHours{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+.tableHours{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background:var(--main-color);
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 250px;
+    height: 300px;
+    padding: 20px;
+}
+
+.tableHours table{
+  border-spacing: 5px;
+  margin-left:5px;
 }

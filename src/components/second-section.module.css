@@ -2,7 +2,7 @@
     padding: 0 20px;
     text-align: center;
     margin-bottom: 30px;
-    height: 80vh;
+    height: 100vh;
    
 }
 .secondSection button{
@@ -11,9 +11,11 @@
 .cardsWrapper{
     display: flex;
     flex-direction: row;    
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 20px
+    margin-top: 50px;
+    margin-bottom: 20px;
+    row-gap:20px;
 }
 .serviceCard{
     position: relative;
@@ -21,11 +23,17 @@
     width: 250px;
     height: 250px;
     border: 1px solid lightblue ;
-    border-radius: 25px;
     color:black;
+}
+.serviceCard:hover{
+    background-color:aqua;
+    transition-duration: 0.5s;
 }
 .serviceCard p {
     font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
 }
 .serviceCard img{
     position: absolute;
@@ -33,4 +41,5 @@
     left: 1px;
     width: 75px;
     height: 75px;
+    border-radius: 100%;
 }

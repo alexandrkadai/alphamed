@@ -6,7 +6,7 @@ import classes from  './second-section.module.css';
 const SecondSection = () => {
   return (
     <section className={classes.secondSection}>
-      <h2>Послуги Стоматології</h2>
+      <h2 className="text-[40px] font-bold">Послуги Стоматології</h2>
 
     <div className={classes.cardsWrapper}>
       <div className={classes.serviceCard}>
@@ -36,7 +36,6 @@ const SecondSection = () => {
 
       </div>
 
-      <Button text={'дізнатися більше'}/>
     </section>
   );
 };
