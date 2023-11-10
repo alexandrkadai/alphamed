@@ -14,9 +14,9 @@ const ThirdSection = () => {
       <img src={work1} alt='works'/>
       <img src={work2} alt='works'/>
       <img src={work3} alt='works'/>
-      </div>
+      
 
-      <div className={classes.wrappertwo}>
+   
      
       <img src={work4} alt='works'/>
       <img src={work5} alt='works'/>

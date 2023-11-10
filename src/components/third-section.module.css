@@ -1,14 +1,10 @@
 .mainSec {
   padding-top: 30px;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(0, 212, 255, 1) 37%,
-    rgba(255, 255, 255, 1) 100%
-  );
   text-align: center;
   padding: 20px;
+  background-image: url('../img/great.png');
+  background-position: center;
+  background-size: cover;
 }
 .mainSec img {
   width: 300px;
@@ -22,8 +18,10 @@
 .wrapperone {
   display: flex;
   margin-top: 100px;
-  justify-content: space-between;
   flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 40px;
+  row-gap: 40px;
 }
 
 .wrappertwo {
@@ -32,3 +30,4 @@
   justify-content: space-around;
   flex-direction: row;
 }
+

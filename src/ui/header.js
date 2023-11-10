@@ -14,9 +14,9 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="bg-emerald-300 w-full h-[85px] flex items-center justify-end">
-        <ul className="flex flex-row gap-10 text-[25px] uppercase mr-20">
-          <li className="">про нас</li>
+      <div className="bg-sky-400 w-full h-[85px] flex items-center justify-end">
+        <ul className={` ${classes.secondlist} flex flex-row gap-10 text-[25px] uppercase mr-20 text-white`}>
+          <li>про нас</li>
           <li>послуги</li>
           <li>роботи</li>
           <li>контакти</li>

@@ -3,9 +3,12 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap');
 
+:root{
+  --main-color: #039de3;
+}
 body {
   margin: 0;
-  font-family: -apple-system, Arial, Helvetica,
+  font-family: Montserrat, -apple-system, Arial, Helvetica,
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

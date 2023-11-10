@@ -1,0 +1,23 @@
+.mainSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px;
+
+}
+.title{
+    font-weight: bold;
+    font-size: 35px;
+}
+.firstPart{
+    width: auto;
+}
+
+.secondPart{
+    width: auto;
+}
+.secondPart img{
+    width: 500px;
+    
+}
+

@@ -1,32 +1,35 @@
-import 'fourth-section.module.css';
-
+import classes from './fourth-section.module.css';
+import {doctor} from '../img';
 const FourthSection = () => {
   return (
-    <div>
-      <h2>Our Team</h2>
+    <div className={classes.main}>
+      <h2 className={classes.title}>наша команда</h2>
 
-      <div>
-        <img src="somesrc.jpeg" alt="doctor one" />
-        <span>Ivan Petrovich</span>
-        <p>The Best of the Best Doctor</p>
-      </div>
+      <div className={classes.cardswrapper}>
 
-      <div>
-        <img src="somesrc.jpeg" alt="doctor one" />
-        <span>Ivan Petrovich</span>
-        <p>The Best of the Best Doctor</p>
-      </div>
+        <div className={classes.card}>
+          <img src={doctor} alt="doctor one" />
+          <span>Степан Думний</span>
+          <p>Це найкращий доктор в світі</p>
+        </div>
 
-      <div>
-        <img src="somesrc.jpeg" alt="doctor one" />
-        <span>Ivan Petrovich</span>
-        <p>The Best of the Best Doctor</p>
-      </div>
+        <div className={classes.card}>
+          <img src={doctor} alt="doctor one" />
+          <span>Степан Думний</span>
+          <p>Це найкращий доктор в світі</p>
+        </div>
 
-      <div>
-        <img src="somesrc.jpeg" alt="doctor one" />
-        <span>Ivan Petrovich</span>
-        <p>The Best of the Best Doctor</p>
+        <div className={classes.card}>
+          <img src={doctor} alt="doctor one" />
+          <span>Степан Думний</span>
+          <p>Це найкращий доктор в світі</p>
+        </div>
+
+        <div className={classes.card}>
+          <img src={doctor} alt="doctor one" />
+          <span>Степан Думний</span>
+          <p>Це найкращий доктор в світі</p>
+        </div>
       </div>
     </div>
   );

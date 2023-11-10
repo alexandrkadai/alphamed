@@ -1,0 +1,41 @@
+.main{
+    background-image: url('../img/Subsection.svg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 40px;
+}
+.title{
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.cardswrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 40px;
+    row-gap: 40px;
+    margin-top: 100px;
+}
+
+.card{
+    width: 200px;
+    height: 350px;
+    background-color: white;
+    border: 3px solid var(--main-color);
+    box-shadow: 1px 1px 1px  var(--main-color);
+}
+
+
+.card span {
+font-weight: bold;
+text-transform: uppercase;
+padding: 5px;
+}
+.card p {
+    padding: 5px;
+}

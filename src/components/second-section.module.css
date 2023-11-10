@@ -8,10 +8,13 @@
 .secondSection button{
     margin-top: 10px;
 }
+.secondSection h2{
+    
+}
 .cardsWrapper{
     display: flex;
     flex-direction: row;    
-    justify-content: space-between;
+    column-gap: 30px;
     flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 20px;
@@ -22,11 +25,12 @@
     padding: 5px;
     width: 250px;
     height: 250px;
-    border: 1px solid lightblue ;
+    border: 3px solid var( --main-color);
     color:black;
 }
 .serviceCard:hover{
-    background-color:aqua;
+    background-color: var(--main-color);
+    color: white;
     transition-duration: 0.5s;
 }
 .serviceCard p {

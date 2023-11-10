@@ -7,6 +7,7 @@ const SecondSection = () => {
   return (
     <section className={classes.secondSection}>
       <h2 className="text-[40px] font-bold">Послуги Стоматології</h2>
+      
 
     <div className={classes.cardsWrapper}>
       <div className={classes.serviceCard}>
@@ -28,11 +29,20 @@ const SecondSection = () => {
         <p>Ортодонтія</p>
         <img alt="Karies" src={tooth} />
       </div>
+      <div className={classes.serviceCard}>
+        <p>Ендодонтія</p>
+        <img alt="Karies" src={tooth} />
+      </div>
 
       <div className={classes.serviceCard}>
         <p>Дитяча Стоматологія</p>
         <img alt="Karies" src={tooth} />
       </div>
+
+      <div className={classes.serviceCard}>
+      <p>Естетична Стоматологія</p>
+      <img alt="Karies" src={tooth} />
+    </div>
 
       </div>
 
